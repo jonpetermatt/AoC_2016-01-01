@@ -27,7 +27,6 @@ namespace Taxi
 				direct++;
 			}
 		}
-		Console.WriteLine(direct);
 		int distance = (int) Int64.Parse(item.Substring(1));
 		switch (direct) {
 			case 0:
